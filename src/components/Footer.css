@@ -1,0 +1,34 @@
+.footer {
+    padding: 20px 0;
+    text-align: center;
+    color: var(--text-secondary);
+    font-family: monospace;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.social-links a {
+    color: var(--text-secondary);
+    font-size: 20px;
+    transition: var(--transition-fast);
+}
+
+.social-links a:hover {
+    color: var(--accent-primary);
+    transform: translateY(-3px);
+}
+
+.footer-text p {
+    margin: 0;
+}
