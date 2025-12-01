@@ -56,7 +56,7 @@ const Projects = () => {
                                 </div>
                                 <div className="project-links">
                                     <a href={project.github} aria-label="GitHub Link" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-                                    <a href={project.external} aria-label="External Link" target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt /></a>
+                                    {/* <a href={project.external} aria-label="External Link" target="_blank" rel="noopener noreferrer"><FaExternalLinkAlt /></a> */}
                                 </div>
                             </div>
                             <h3 className="project-title">{project.title}</h3>
